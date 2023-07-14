@@ -1,7 +1,7 @@
 Take cansole of Ubntu VM -- follow the below steps.
 # Change/add Ip address to any interface and change from manual to static
   nano /etc/network/interfaces
-# Resytart the network services
+# Restart the network services
   systemctl restart networking.service
 # Enter into below file and remove # from both net.ipv4.tcp_syncookies=1 & net.ipv4.ip_forward=1
   nano /etc/sysctl.conf
